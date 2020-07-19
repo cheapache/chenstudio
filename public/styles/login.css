@@ -1,0 +1,87 @@
+
+@font-face {
+    font-family: 'Droid Sans';
+    src: url('../fonts/DroidSans.eot');
+    src: url('../fonts/DroidSans.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/DroidSans.woff2') format('woff2'),
+        url('../fonts/DroidSans.woff') format('woff'),
+        url('../fonts/DroidSans.ttf') format('truetype'),
+        url('../fonts/DroidSans.svg#DroidSans') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+  font-family: 'Droid Sans';
+  src: url('../fonts/DroidSans-Bold.eot');
+  src: url('../fonts/DroidSans-Bold.eot.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/DroidSans-Bold.woff2') format('woff2'),
+      url('../fonts/DroidSans-Bold.woff') format('woff'),
+      url('../fonts/DroidSans-Bold.ttf') format('truetype'),
+      url('../fonts/DroidSans-Bold.svg#DroidSans') format('svg');
+  font-weight: bold;
+  font-style: normal;
+}
+  
+@font-face {
+    font-family: 'supermarket';
+    src: url('../fonts/subset-supermarket.eot');
+    src: url('../fonts/subset-supermarket.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/subset-supermarket.woff2') format('woff2'),
+        url('../fonts/subset-supermarket.woff') format('woff'),
+        url('../fonts/subset-supermarket.ttf') format('truetype'),
+        url('../fonts/subset-supermarket.svg#supermarket') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+    font-family: 'Droid Sans', 'supermarket';
+    background-color: #ffffff;
+}
+
+#content{
+    width: 400px;
+    height: 310px;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+    border: 1px solid #999;
+    box-shadow: 2px 2px 2px 2px #999;
+    border-radius: 10px;
+}
+
+.content-center{
+    text-align: center;
+}
+
+.content-right{
+    text-align: right;
+}
+
+.content-left{
+    text-align: left;
+}
+
+.lbtitle{
+    font-size: 1.6em;
+    color: #444;
+    font-weight: bold;
+}
+
+.lbcontrol{
+    font-size: 1.2em;
+    color: #444;
+    font-weight: bold;
+}
+
+.btn{
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+.jqx-validator-hint{
+    font-family: 'Droid Sans', 'supermarket';
+    font-size: 16px;
+}

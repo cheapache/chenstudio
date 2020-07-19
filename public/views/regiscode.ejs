@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Register</title>
+        <meta name='viewpoint' content="width=device-width, initial-scale=1.0"/>
+        <link rel="stylesheet" href="../widgets/jqwidgets/styles/jqx.base.css" type="text/css" />
+        <link rel="stylesheet" href="../bootstrap-4.4.1-dist/css/bootstrap.min.css">
+        <link rel="stylesheet" href="../styles/all.css" type="text/css">
+        <link rel="stylesheet" href="../styles/sweetalert.css" type="text/css">
+        <link rel="stylesheet" href="../styles/register.css" type="text/css">
+        <script type='text/javascript' src='../widgets/scripts/jquery-1.11.1.min.js'></script>
+        <script type="text/javascript" src="../widgets/jqwidgets/jqxcore.js"></script>
+        <script type="text/javascript" src="../widgets/jqwidgets/jqxvalidator.js"></script>
+        <script type="text/javascript" src="../widgets/jqwidgets/jqxdata.js"></script> 
+        <script type='text/javascript' src='../scripts/sweetalert.js'></script>
+        <script type='text/javascript' src='../scripts/common.js'></script>
+        <script type='text/javascript' src='../scripts/register.js'></script>
+    </head>
+    <body>
+    <p id='attruserid' style='display: none;'><%=userid%></p>
+        <div id='content'>
+            <div class='container'>
+                <div class='row'>
+                    <div class='col-md-1 mt-3'>
+
+                    </div>
+                    <div class='col-md-10 mt-3' style='border-bottom: 2px solid #444;'>
+                        <div class='lbtitle content-center'>Register Code</div>
+                    </div>
+                    <div class='col-md-1 mt-3'>
+
+                    </div>
+                    <div class='col-md-12 mt-3'>
+                        <input id='txtcode' type='text' class="form-control" maxlength="13" placeholder="Enter your code." style='text-align: center;'/>
+                    </div>
+                    <div class='col-md-12 mt-3 content-center'>
+                        <button id='btnsubmit' type='button' class='btn btn-primary'>Submit</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

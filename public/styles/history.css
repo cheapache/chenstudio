@@ -1,0 +1,89 @@
+
+@font-face {
+    font-family: 'Droid Sans';
+    src: url('../fonts/DroidSans.eot');
+    src: url('../fonts/DroidSans.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/DroidSans.woff2') format('woff2'),
+        url('../fonts/DroidSans.woff') format('woff'),
+        url('../fonts/DroidSans.ttf') format('truetype'),
+        url('../fonts/DroidSans.svg#DroidSans') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+  font-family: 'Droid Sans';
+  src: url('../fonts/DroidSans-Bold.eot');
+  src: url('../fonts/DroidSans-Bold.eot.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/DroidSans-Bold.woff2') format('woff2'),
+      url('../fonts/DroidSans-Bold.woff') format('woff'),
+      url('../fonts/DroidSans-Bold.ttf') format('truetype'),
+      url('../fonts/DroidSans-Bold.svg#DroidSans') format('svg');
+  font-weight: bold;
+  font-style: normal;
+}
+  
+@font-face {
+    font-family: 'supermarket';
+    src: url('../fonts/subset-supermarket.eot');
+    src: url('../fonts/subset-supermarket.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/subset-supermarket.woff2') format('woff2'),
+        url('../fonts/subset-supermarket.woff') format('woff'),
+        url('../fonts/subset-supermarket.ttf') format('truetype'),
+        url('../fonts/subset-supermarket.svg#supermarket') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+    font-family: 'Droid Sans', 'supermarket' !important;
+    background-color: #ffffff;
+}
+
+.jqx-grid-cell-left-align{
+    padding-left: 5px !important;
+  }
+
+.jqx-grid-cell-right-align{
+    padding-right: 5px !important;
+  }
+
+  .jqx-widget-bootstrap, .jqx-widget-header-bootstrap, .jqx-fill-state-normal-bootstrap, .jqx-widget-content-bootstrap, .jqx-fill-state-hover-bootstrap, .jqx-fill-state-pressed-bootstrap{
+      font-size: 16px !important;
+      font-family: 'Droid Sans', 'supermarket' !important;
+  }
+
+
+.content-center{
+    text-align: center;
+}
+
+.content-right{
+    text-align: right;
+}
+
+.content-left{
+    text-align: left;
+}
+
+.lbtitle{
+    font-size: 1.6em;
+    color: #444;
+    font-weight: bold;
+}
+
+.lbcontrol{
+    font-size: 1.2em;
+    color: #444;
+    font-weight: bold;
+}
+
+.btn{
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+.jqx-validator-hint{
+    font-family: 'Droid Sans', 'supermarket';
+    font-size: 16px;
+}
