@@ -12,7 +12,7 @@ class Db {
             host: 'localhost',
             user: 'sa',
             password: '9xAl54Tn',
-            database: 'homework_dhm',
+            database: 'homework_pmh',
             debug: false
         });
 
